@@ -1,0 +1,79 @@
+<app-header></app-header>
+<section class="home">
+   <div class="container d-flex justify-content-between">
+     <div class="row align-items-center">
+ 
+       <!-- Home Content -->
+       <div class="col-md-12 home-content">
+         <h3>Hello, It's Me</h3>
+         <h1>Peeyus Saini </h1>
+         <div class="typing-container">
+          <h3>And I'm a<span [@typingAnimation]="typingState" class="typing-text">{{ currentText }}</span></h3>
+        </div>        
+         <p>I am a Front-End <span style="color: red;">Angular</span> Developer with extensive experience for over 1.5 year at SMG Infotech Pvt. Ltd.<br> Expertise is to create and design website using HTML , CSS , JS , Angular , and C# programming language</p>
+         <div class="home-sci">
+           <a href="https://www.facebook.com/profile.php?id=100021875829777&mibextid=ZbWKwL" target="_blank" style="--i:7"><i class='bx bxl-facebook'></i></a>
+           <a href="https://wa.me/+919817634413" target="_blank" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
+           <a href="https://www.instagram.com/i.piyush_saini/" target="_blank" style="--i:9"><i class='bx bxl-instagram'></i></a>
+           <a href="https://www.linkedin.com/in/peeyus-saini-23263b24a/" target="_blank" style="--i:10"><i class='bx bxl-linkedin'></i></a>
+         </div>
+         <br><br>
+         <div class="More">
+           <a href="../../../assets/Peeyus-CV.pdf" class="CV"><i class='bx bxs-download'></i> Download CV</a>
+         </div>
+       </div>
+ 
+       
+      </div>
+      <!-- Profile Image -->
+      <div class="col-md-3 image">
+        <img src="/assets/images/Picsart_23-07-22_20-00-02-488.jpg" class="img-fluid mb-4" alt="Peeyus Saini">
+      </div>
+   </div>
+ </section>
+ 
+ <!-- About Section -->
+ <section class="about" id="about">
+   <div class="container">
+     <div class="d-flex">
+       <div class="col-md-8 about-text">
+         <h2>About<span>Me</span></h2>
+         <h4>Front End Developer</h4>
+         <p>
+          Dynamic and results-oriented Angular Developer with a solid foundation of HTML , CSS , JavaScript and
+           Angular with 1.5 year of professional experience. Proficient in crafting responsive, maintainable, and 
+           scalable web applications using Angular framework. Aiming to leverage my abilities to successfully
+            fill the vacancy at your compony. 
+         </p>
+         <a routerLink="/about" class="btn-box">More About Me</a>
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <!-- Skills Section -->
+ <section id="skill">
+   <div class="container">
+     <h1 class="sub-tittle">My <span>Skills</span></h1>
+     <div class="services-list">
+       <div class="col-md-12">
+         <i class='bx bx-code-alt' style='color:rgb(39, 152, 197)'></i>
+         <h2>UI/UX Design</h2>
+         <p>Let's build something with great design. Give me projects, and I'll show you an interesting website with a creative mind.</p>
+       </div>
+       <div class="col-md-12">
+         <i class='bx bx-crop' style='color:rgb(39, 152, 197)'></i>
+         <h2>Web Developing</h2>
+         <p>I am an experienced web developer with better skills in frontend. I pursue collecting skills with my work.</p>
+       </div>
+      </div>
+      <div class="services-list">
+      <div class="col-md-12">
+         <i class='bx bx-hash' style='color:rgb(39, 152, 197)'></i>
+         <h2>Angular</h2>
+         <p>Dynamic and results-oriented Angular Developer with a solid foundation of HTML , CSS , JavaScript and Angular</p>
+      </div>
+   </div>
+   </div>
+ </section>
+ <app-footer></app-footer>
